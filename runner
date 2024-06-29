@@ -1,0 +1,6 @@
+#!/bin/bash
+while IFS="," read -r product url
+do
+   echo "Screenshotting $product"
+   node index.js "$url" "$product"
+done < product_list.csv

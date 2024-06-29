@@ -1,0 +1,4 @@
+screenshots/*
+.idea/*
+node_modules
+product_list.csv
